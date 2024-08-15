@@ -17,6 +17,8 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: Install All dependency
+      run: npm install
     - name: Run Cucumber Test
       run: npm test
     - uses: actions/upload-artifact@v4
