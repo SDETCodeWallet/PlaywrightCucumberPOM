@@ -1,4 +1,4 @@
-import { After, Before, BeforeAll, BeforeStep, setDefaultTimeout, Status } from "@cucumber/cucumber";
+import { After, AfterAll, Before, BeforeAll, BeforeStep, setDefaultTimeout, Status } from "@cucumber/cucumber";
 import { Browser, BrowserContext, chromium, Page } from "@playwright/test";
 
 let testBrowser: Browser
@@ -23,4 +23,7 @@ After(async function({result}) {
     }
 })
 
+AfterAll(async function (){
+    await testBrowser.close()
+})
 export {testBrowser, landingPage}
