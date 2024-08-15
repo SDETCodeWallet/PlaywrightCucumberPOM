@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-is-my-login-feature;this-is-my-sample-feature",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "This is my sample Feature",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 938433900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Starting of the Test",
+            "match": {
+              "location": "src\\test\\Steps\\LandingsSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 720800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I launch the application",
+            "match": {
+              "location": "src\\test\\Steps\\LandingsSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788864699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I Search \"Shubham\"",
+            "match": {
+              "location": "src\\test\\Steps\\LandingsSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4364627800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I validate Search page is open",
+            "match": {
+              "location": "src\\test\\Steps\\LandingsSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-is-my-login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This is my Login feature",
+    "tags": [],
+    "uri": "src\\test\\features\\Login.feature"
+  }
+]

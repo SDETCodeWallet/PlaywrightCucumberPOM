@@ -25,5 +25,5 @@ jobs:
       if: ${{ !cancelled() }}
       with:
         name: cucumber-report
-        path: ./
+        path: PlaywrightReports/
         retention-days: 30
