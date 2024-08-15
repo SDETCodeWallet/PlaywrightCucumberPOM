@@ -1,0 +1,20 @@
+{
+    "default": {
+        "paths": [
+            "src/test/features/*.feature"
+        ], 
+        "require": [
+            "src/test/Steps/*.ts"
+        ], 
+        "requireModule": [
+            "ts-node/register"
+        ], 
+        "format": [
+            "html:cucumber-report.html", 
+            "json:json-report.json", 
+            "progress-bar"
+        ], 
+            
+        "dryRun": false
+    }
+}
