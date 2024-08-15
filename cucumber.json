@@ -10,8 +10,8 @@
             "ts-node/register"
         ], 
         "format": [
-            "html:cucumber-report.html", 
-            "json:json-report.json"
+            "html:PlaywrightReports/cucumber-report.html", 
+            "json:PlaywrightReports/json-report.json"
         ], 
             
         "dryRun": false
