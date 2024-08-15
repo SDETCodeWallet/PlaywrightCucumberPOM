@@ -19,7 +19,7 @@ Before(async function(){
 After(async function({result}) {
     if(result?.status== Status.FAILED){
         const image= await landingPage.screenshot({path: "./image.png", type: "png"})
-        await this.attach(image, "image/png")
+        this.attach(image, "image/png")
     }
 })
 

@@ -21,7 +21,7 @@ When('I Search {string}', async function (string) {
     await landingPage.waitForTimeout(1000)
     await landingPage.locator('//div[@class="navbar__item dropdown dropdown--hoverable"]//a[text()="Java"]').click();
     await landingPage.waitForTimeout(1000)
-    await expect(landingPage).toHaveTitle("Installation | Playwright Java")
+    await expect(landingPage).toHaveTitle("1Installation | Playwright Java")
     await expect(landingPage).toHaveURL("https://playwright.dev/java/docs/intro")
     await landingPage.locator('//p//parent::div/p[1]').scrollIntoViewIfNeeded()
 });
