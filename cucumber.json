@@ -11,8 +11,7 @@
         ], 
         "format": [
             "html:cucumber-report.html", 
-            "json:json-report.json", 
-            "progress-bar"
+            "json:json-report.json"
         ], 
             
         "dryRun": false
