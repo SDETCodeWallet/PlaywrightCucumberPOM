@@ -3,6 +3,7 @@ import { BaseTest } from "./UIDriver";
 import { HomePage } from "../ApplicationPages/HomePage";
 import { IntroPage } from "../ApplicationPages/IntroPage";
 import { playwrightPage } from "./TestHooks";
+import { Accessibility } from "./AccessibilityUtils";
 
 
 Given('I launch the application', async function () {
@@ -19,4 +20,8 @@ When('I click on Get Started Link', async function () {
 Then('I verify Installation page is displayed', async function () {
     await IntroPage.verifyIntroPageURL();
     await IntroPage.verifyInstallationText();
+});
+
+Then('I check the accessbility of the page', async function () {
+    await Accessibility.checkAccessibility(playwrightPage)
 });

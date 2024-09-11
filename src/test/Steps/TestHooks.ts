@@ -12,7 +12,9 @@ BeforeAll(async function(){
 Before(async function(){
     browserContext= await testBrowser.newContext();
     playwrightPage = await browserContext.newPage();
+    
 })
+
 
 After(async function({result}) {
     if(result?.status== Status.FAILED){

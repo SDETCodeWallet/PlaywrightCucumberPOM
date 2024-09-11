@@ -13,6 +13,7 @@
             "html:PlaywrightReports/cucumber-report.html", 
             "json:PlaywrightReports/json-report.json"
         ], 
+        "tags": "@AccessbilityTest",
             
         "dryRun": false
     }
