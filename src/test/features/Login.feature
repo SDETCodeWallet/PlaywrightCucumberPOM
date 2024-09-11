@@ -1,9 +1,8 @@
 Feature: This is my Login feature
 
 Background: Setup
-    Given Starting of the Test
+    Given I launch the application
 
     Scenario: This is my sample Feature
-        Given I launch the application
-        When I Search "Shubham"
-        Then I validate Search page is open
+        When I click on Get Started Link 
+        Then I verify Installation page is displayed
