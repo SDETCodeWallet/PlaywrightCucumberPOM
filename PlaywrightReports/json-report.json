@@ -14,59 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 938433900
+              "duration": 1248403699
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "Starting of the Test",
-            "match": {
-              "location": "src\\test\\Steps\\LandingsSteps.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 720800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
             "name": "I launch the application",
             "match": {
-              "location": "src\\test\\Steps\\LandingsSteps.ts:5"
+              "location": "src\\test\\Steps\\LandingsSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 788864699
+              "duration": 3173099999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "I Search \"Shubham\"",
+            "line": 7,
+            "name": "I click on Get Started Link",
             "match": {
-              "location": "src\\test\\Steps\\LandingsSteps.ts:10"
+              "location": "src\\test\\Steps\\LandingsSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 4364627800
+              "duration": 127766100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "I validate Search page is open",
+            "line": 8,
+            "name": "I verify Installation page is displayed",
             "match": {
-              "location": "src\\test\\Steps\\LandingsSteps.ts:33"
+              "location": "src\\test\\Steps\\LandingsSteps.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 382200
+              "duration": 297606499
             }
           },
           {
@@ -74,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 360700
+              "duration": 323599
             }
           }
         ],
