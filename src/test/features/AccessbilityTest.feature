@@ -1,10 +1,9 @@
 @AccessbilityTest
-Feature: Validate Application Page
+Feature: Validate Accessbility of the homa page
 
 Background: Setup Browser
     Given I launch the application
-    Then I check the accessbility of the page
+    
 
-    Scenario: This is my sample scenario
-        When I click on Get Started Link 
-        Then I verify Installation page is displayed
+    Scenario: Check the Accessbility of the page
+        Then I check the accessbility of the page

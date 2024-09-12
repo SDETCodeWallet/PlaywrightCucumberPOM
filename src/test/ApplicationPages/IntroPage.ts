@@ -1,6 +1,6 @@
 import { expect } from "@playwright/test";
-import { BaseTest } from "../Steps/UIDriver";
-import { playwrightPage } from "../Steps/TestHooks";
+import { BaseTest } from "../Utils/UIDriver";
+import { playwrightPage } from "../Utils/TestHooks";
 
 const installationLink: string=  "//a[text()='Installation']";
 

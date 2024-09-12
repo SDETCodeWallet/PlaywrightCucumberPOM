@@ -1,5 +1,4 @@
 import { expect, request } from "@playwright/test";
-import { playwrightPage } from "./TestHooks";
 
 export class APIDriver{
 

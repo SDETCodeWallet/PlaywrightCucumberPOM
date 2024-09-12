@@ -1,10 +1,21 @@
-import { Given } from "@cucumber/cucumber";
-import { APIDriver } from "./APIDriver";
+import { Given, Then, When } from "@cucumber/cucumber";
+import { APIDriver } from "../Utils/APIDriver";
 
-let url = 'https://dummy.restapiexample.com';
-let endpoint = "/api/v1/employees";
+When('I make a {string} request to {string}', async function (MethodType: string, endPoint: string) {
+   let baseURL = 'https://fake-json-api.mock.beeceptor.com';
+    let response;
+   switch (MethodType) {
+    case "GET":
+        response = await APIDriver.getRequest(baseURL, endPoint);
+        break;
+    case "POST":
+        response = await APIDriver.postRequest(baseURL, endPoint, "data"); 
+        break;
+    default:
+        console.error("Invalid Method Type"+ MethodType);
+        break;
+   }
 
-Given('GET request test', async function () {
-    const response = await APIDriver.getRequest(url, endpoint);
-    console.log(response)
+   console.log(response)
 });
+

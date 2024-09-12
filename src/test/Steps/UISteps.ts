@@ -1,9 +1,9 @@
 import { Given, Then, When } from "@cucumber/cucumber";
-import { BaseTest } from "./UIDriver";
+import { BaseTest } from "../Utils/UIDriver";
 import { HomePage } from "../ApplicationPages/HomePage";
 import { IntroPage } from "../ApplicationPages/IntroPage";
-import { playwrightPage } from "./TestHooks";
-import { Accessibility } from "./AccessibilityUtils";
+import { playwrightPage } from "../Utils/TestHooks";
+import { Accessibility } from "../Utils/AccessibilityUtils";
 
 
 Given('I launch the application', async function () {

@@ -1,5 +1,5 @@
-import { BaseTest } from "../Steps/UIDriver";
-import { playwrightPage } from "../Steps/TestHooks";
+import { BaseTest } from "../Utils/UIDriver";
+import { playwrightPage } from "../Utils/TestHooks";
 
 
 export class HomePage{

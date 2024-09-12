@@ -4,7 +4,8 @@
             "src/test/features/*.feature"
         ], 
         "require": [
-            "src/test/Steps/*.ts"
+            "src/test/Steps/*.ts",
+            "src/test/Utils/*.ts"
         ], 
         "requireModule": [
             "ts-node/register"
@@ -13,7 +14,7 @@
             "html:PlaywrightReports/cucumber-report.html", 
             "json:PlaywrightReports/json-report.json"
         ], 
-        "tags": "@AccessbilityTest",
+        "tags": "@API",
             
         "dryRun": false
     }
